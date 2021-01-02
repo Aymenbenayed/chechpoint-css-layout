@@ -1,0 +1,259 @@
+* {
+  font-size: 16px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+
+/*header*/
+.logodocplanner {
+  width: 268px;
+  height: 33px;
+}
+
+.heade {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 5px;
+  margin: 20px 252.35px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  color: #747474;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: space-between;
+}
+
+nav ul a {
+  padding: 0px 9px;
+  color: #747474;
+  font-size: 15px;
+}
+.down {
+  cursor: pointer;
+}
+ul li {
+  float: left;
+  text-align: center;
+}
+
+.down-content {
+  list-style-position: inside;
+}
+
+.a-color {
+  color: #00b39b;
+}
+/*secction 1 */
+
+.introduction {
+  margin: 10px 252.35px;
+  text-align: center;
+}
+
+.introduction-logo {
+  width: 39px;
+  height: 40px;
+}
+
+.introduction h1 {
+  color: #00b39b;
+  font-weight: normal;
+  text-align: center;
+  font-size: 34px;
+}
+.introduction-text {
+  display: flex;
+  text-align: left;
+  line-height: 1.75;
+  font-weight: 400;
+  padding: 20px;
+}
+.introduction-p {
+  padding: 10px;
+}
+
+/*section service*/
+
+.service {
+  display: flex;
+  margin: 10px 252.35px;
+}
+
+.service-card {
+  padding: 25px;
+  border-radius: 8px;
+  margin: 12px;
+  padding-bottom: 30px;
+}
+.service-card h1 {
+  color: white;
+  font-size: 26px;
+}
+.service-card h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 24px;
+}
+.service-card label {
+  color: white;
+}
+.service-card-patient {
+  background-color: #00b39b;
+}
+.service-card-doctors {
+  background-color: #3d83df;
+}
+.service-card-clinics {
+  background-color: #1b2734;
+}
+
+/*section logo
+.brands {
+  margin: 2.5rem auto 3.125rem;
+}
+*/
+
+.brands {
+  margin: 100px 252.35px;
+  display: flex;
+}
+.brands h1 {
+  width: 33%;
+  font-size: 26px;
+  margin: 4px 0 5.6px;
+  padding-right: 16px;
+  color: #00b39b;
+  font-weight: normal;
+}
+
+.logos ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 0;
+  width: 67%;
+  list-style: none;
+  padding: 0px;
+}
+/*
+.logos {
+  display: flex;
+  margin: 252px 40px 252px 50px;
+}*/
+
+/*section healthcare*/
+.healthcare {
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.527)
+  );
+}
+.healthcare-content {
+  margin: 10px 252.35px;
+  display: flex;
+}
+
+.healthcare-text h1 {
+  color: #00b39b;
+  font-size: 34px;
+  font-weight: normal;
+  padding-right: 5px;
+}
+.healthcare-text {
+  margin-top: 30px;
+}
+.healthcare-text p {
+  max-width: 415px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7142857143;
+}
+
+.stat-of {
+  background-color: white;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  height: 250px;
+  text-align: center;
+  align-items: center;
+  padding: 1px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 35%;
+}
+.stat {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 30px 20px 30px;
+}
+
+/*
+  .stats__header:before {
+    content: "";
+    position: absolute;
+    right: 67%;
+    top: 45%;
+    background:url(/img/logo.png) no-repeat;
+    width: 456px;
+    height: 435px;
+    pointer-events: none;
+} 
+*/
+
+/*section join-us*/
+
+.join-us {
+  margin: 177px 80px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 18.667px 24px;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+}
+
+/*footer*/
+
+.main-footer {
+  text-align: center;
+  border-top: 1px solid #eef2f2;
+  padding: 16px 0;
+}
+
+.main-footer .section__inner,
+.main-footer p {
+  font-size: 12px;
+  color: #747474;
+}
+
+a {
+  text-decoration: none;
+  color: #3d83df;
+  outline: 0;
+  transition: all 0.2s ease 0s;
+  background-color: transparent;
+  font-size: 12px;
+}
